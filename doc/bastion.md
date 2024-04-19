@@ -1,0 +1,1 @@
+### Refer to https://github.com/opdev/disconnectedOCPdemo/blob/bastion-terraform/bastion/README.md

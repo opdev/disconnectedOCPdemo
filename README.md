@@ -2,6 +2,10 @@
 
 This guide explains how to deploy an OpenShift Container Platform (OCP) in a disconnected environment. It utilizes a bastion host for secure communication and a private Quay repository to manage container images.
 
+## Challenges
+
+The challenge is the platform can't fetch the necessary images from RedHat registry, hence we provide a private/mirror registry in the same private network as the OCP restricted cluster
+
 ## Overview
 
 ### Components Overview
@@ -34,3 +38,15 @@ Follow these steps to set up your offline OpenShift Cluster:
 ## Conclusion
 
 Each component plays a critical role in establishing a robust and secure OCP environment in disconnected setups. Proper configuration and integration of these components are essential for a successful deployment.
+
+
+## Ref:
+Installing Operators in a Disconnected OpenShift Cluster:
+
+https://medium.com/@abhichandra1998/installing-operators-in-a-disconnected-openshift-cluster-129af21cd904
+
+Better securing the future: Navigating Red Hat OpenShift disconnected installations with the agent-based installer:
+
+https://www.redhat.com/en/blog/red-hat-openshift-disconnected-installations
+
+
