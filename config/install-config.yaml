@@ -1,0 +1,95 @@
+additionalTrustBundlePolicy: Proxyonly
+additionalTrustBundle: |
+  -----BEGIN CERTIFICATE-----
+  MIIDxjCCAq6gAwIBAgIUK/s/+zQ12208tsm+LDhZYC2a800wDQYJKoZIhvcNAQEL
+  BQAwgYIxCzAJBgNVBAYTAlVTMQswCQYDVQQIDAJWQTERMA8GA1UEBwwITmV3IFlv
+  cmsxDTALBgNVBAoMBFF1YXkxETAPBgNVBAsMCERpdmlzaW9uMTEwLwYDVQQDDChp
+  cC0xMC0wLTAtMTU4LnVzLWVhc3QtMi5jb21wdXRlLmludGVybmFsMB4XDTI0MDQx
+  NTE0MTkxMFoXDTI1MDQwNjE0MTkxMFowGjEYMBYGA1UEAwwPcXVheS1lbnRlcnBy
+  aXNlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9iWYKy58TUdmrwKx
+  usnKHffv6r3QQia+0GrELjaa6DBsK97fihWEX4ghPK0YUpXBwQPXeplgzUyB52Pt
+  0snq02IDepkqSziaJboxiWoNyXVuV3IdMJT+KZBfIYnnQsCvUY+kIOUgOIZhrFpE
+  UTvtqs2ljb8jUfhY5KJCM1fOC5cUmDMEYjIxp8DhD+E3SVRb6klIVRATyJXp88kI
+  dOm0LKU9LfS2hVIIL+6iz0ihinpZwMt8u/LMkLwlk/mqENttDZphaMapru7Yi984
+  7RfNH0uhmnMAikatimRvKhBPgCPh79xy9EEvH2XHgIx2tIj776TEOmQrHngV+PBr
+  NINIMwIDAQABo4GaMIGXMAsGA1UdDwQEAwIC5DATBgNVHSUEDDAKBggrBgEFBQcD
+  ATAzBgNVHREELDAqgihpcC0xMC0wLTAtMTU4LnVzLWVhc3QtMi5jb21wdXRlLmlu
+  dGVybmFsMB0GA1UdDgQWBBRVOi885n4USpGPNxR7rDRTSf52IzAfBgNVHSMEGDAW
+  gBTW4wfus4OcfqFdqa2qC67iVtGYJDANBgkqhkiG9w0BAQsFAAOCAQEAQQhKgvR7
+  rcb7wsrE9t4Rn5/zhz8sbcYLHOhKkdlt4nsmJwTE5mNVJCXDWLo6Z8WrNoie/J5f
+  Eji3Bz5cjFexwkftsEnztNu0GLjithWp3u3eMG2jsoUKVZFed+2v/k8E9lDhG5B0
+  jTJnodxca4DM1iRJ/MeEhtdTsbM+VCS/YSsl9P4FGfT8RhiT44F1I2H1z8eM+AYW
+  SX9rkafGHW3CUv2ICwbG+crfbHPXgRAeaCvXWLtl/XRRPeujrPhWw2Agm2A8XEb+
+  yUX69N3TBmHPI3vmfbV9TVN49/bire7JJZbvensreAikDSvmn2mirEzHCefkSzqW
+  3FssjmjF+p4byQ==
+  -----END CERTIFICATE-----
+  -----BEGIN CERTIFICATE-----
+  MIIEIjCCAwqgAwIBAgIUDZdTDNnbSL4TFVdCNFkA2zmaDZMwDQYJKoZIhvcNAQEL
+  BQAwgYIxCzAJBgNVBAYTAlVTMQswCQYDVQQIDAJWQTERMA8GA1UEBwwITmV3IFlv
+  cmsxDTALBgNVBAoMBFF1YXkxETAPBgNVBAsMCERpdmlzaW9uMTEwLwYDVQQDDChp
+  cC0xMC0wLTAtMTU4LnVzLWVhc3QtMi5jb21wdXRlLmludGVybmFsMB4XDTI0MDQx
+  NTE0MTkwOFoXDTI3MDIwMzE0MTkwOFowgYIxCzAJBgNVBAYTAlVTMQswCQYDVQQI
+  DAJWQTERMA8GA1UEBwwITmV3IFlvcmsxDTALBgNVBAoMBFF1YXkxETAPBgNVBAsM
+  CERpdmlzaW9uMTEwLwYDVQQDDChpcC0xMC0wLTAtMTU4LnVzLWVhc3QtMi5jb21w
+  dXRlLmludGVybmFsMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqjR6
+  0f5vJSzAjnx6+2PvIxRVwQjQiPhi8w5wYUYE9djFPmTceiOyOouSi2sKzewmP767
+  aB1AI6NPakmpHGAjOYKBS06x84qHWFP9dJWpm/cSyv3d+7jNhi/UbchKJ/A7elwL
+  tebysTZSPxgsjkBpeQ0y1w00+9lUYuHaDgP6yAvY9JVCFmnFcQ2exbmIXfNHgRc4
+  jBLpH1i0N7cIcZyfjOx3/lKOBpDkVHewZwUpKKil1P4NSnjPNsmnhtOSSTSjHKr8
+  cSK67l6kXMT5LTkGQ5mKkTaktUUzp4f+kXZiIoPn22Oc1EyKLzukG9MJwJf0x39p
+  cQDMslXQjHZugGyldQIDAQABo4GNMIGKMAsGA1UdDwQEAwIC5DATBgNVHSUEDDAK
+  BggrBgEFBQcDATAzBgNVHREELDAqgihpcC0xMC0wLTAtMTU4LnVzLWVhc3QtMi5j
+  b21wdXRlLmludGVybmFsMBIGA1UdEwEB/wQIMAYBAf8CAQEwHQYDVR0OBBYEFNbj
+  B+6zg5x+oV2praoLruJW0ZgkMA0GCSqGSIb3DQEBCwUAA4IBAQCf/2T3KnOgY7Ex
+  r0+wKEBBBTQwvez7vQipJUXs8LHsEr1FSvVbrOX74d+JOm1IazL3U5fixZmAeZT+
+  98NCSvT5raAhhOyq2QLeR7e/6DIoTpnfF2Dp2+evjVp4yNNLgxb9i80K+PCQUOhl
+  zJVeUUalmuKQUETnvCrY8KKGwPVXz98l+FbnJIAzJU9RMeOZwNwHWEh3XFflCZNs
+  9rtOUbYN9caTZrSZWf1z6At+SDk08FP5jC2uOZv18Agr+oxfrOvHpPRFJBltL5b6
+  5uAkzO7FEMM8XW5XetSZkNr/xKTDedkZkmLThEUVyEdzuxvUuZYkeZ3/a5DNoSCO
+  89UJ7dL1
+  -----END CERTIFICATE-----
+imageContentSources:
+  - mirrors:
+      - <internal-ip-address>.us-east-2.compute.internal:8443/ubi8
+    source: registry.redhat.io/ubi8
+  - mirrors:
+      - <internal-ip-address>.us-east-2.compute.internal:8443/openshift/release
+    source: quay.io/openshift-release-dev/ocp-v4.0-art-dev
+  - mirrors:
+      - <internal-ip-address>.us-east-2.compute.internal:8443/openshift/release-images
+    source: quay.io/openshift-release-dev/ocp-release
+apiVersion: v1
+sshKey: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINL/4pSOmXS2HtbtUIgZCKEWjmoB0CwjuX4gRqmvh3yc ec2-user@ip-172-31-25-6.us-east-2.compute.internal
+baseDomain: opdev.io
+compute:
+  - architecture: amd64
+    hyperthreading: Enabled
+    name: worker
+    platform: {}
+    replicas: 3
+controlPlane:
+  architecture: amd64
+  hyperthreading: Enabled
+  name: master
+  platform: {}
+  replicas: 3
+metadata:
+  creationTimestamp: null
+  name: discon-demo
+networking:
+  clusterNetwork:
+    - cidr: 10.128.0.0/14
+      hostPrefix: 23
+  machineNetwork:
+    - cidr: 10.0.0.0/16
+  networkType: OVNKubernetes
+  serviceNetwork:
+    - 172.30.0.0/16
+platform:
+  aws:
+    region: us-east-2
+    subnets:
+      - subnet-036e26391ca0e9141
+      - subnet-0a92a42f1838508df
+publish: Internal
+pullSecret: '{"auths":{"<internal-ip-address>.us-east-2.compute.internal:8443":{"auth":"aW5pdCtkaXNjb25uZWN0ZWQ6MjBET0hEQ1VBOFpUMlE3RlRZQU5aSEVWUVZXU1lFR1pLTVU3RURGT1lIQTRXOVFIN0hJRlUzMElPUVIwOTFCUA==","email":""}}}'
