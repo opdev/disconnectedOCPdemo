@@ -21,19 +21,19 @@ The challenge is the platform can't fetch the necessary images from RedHat regis
 Follow these steps to set up your disconnected OpenShift Cluster:
 
 1. **Set Up the Bastion Server**:
-   - This server acts as a gateway between your local network and the OpenShift cluster, ensuring secure connectivity.
+   - The bastion server functions as a secure gateway linking your local network to the OpenShift cluster. Detailed instructions can be found [here](https://github.com/opdev/disconnectedOCPdemo/blob/main/doc/bastion-server-installation.md).
 
 2. **Set Up the Mirror Server**:
-   - This server hosts the Quay repository and mirrors needed resources, making them available to the OpenShift environment.
+   - This server hosts the Quay repository and mirrors needed resources, making them available to the OpenShift environment.Detailed instructions can be found [here](https://github.com/opdev/disconnectedOCPdemo/blob/main/doc/mirror-server-installation.md).
 
 3. **Set Up the Quay Repository**:
-   - Configure the private Quay repository on the mirror server to manage OpenShift images.
+   - Configure the private Quay repository on the mirror server to manage OpenShift images.Detailed instructions can be found [here](https://github.com/opdev/disconnectedOCPdemo/blob/main/doc/quay-registry-installation.md).
 
 4. **Install OpenShift**:
-   - From the bastion server, install the OpenShift Container Platform using the resources available from your mirror server.
+   - From the bastion server, install the OpenShift Container Platform using the resources available from your mirror server.Detailed instructions can be found [here](https://github.com/opdev/disconnectedOCPdemo/blob/main/doc/disconnectedOCP-installation.md).
 
 5. **Install Operators**:
-   - Install OpenShift operators using the images managed in your Quay repository.
+   - Install OpenShift operators using the images managed in your Quay repository.Detailed instructions can be found [here](https://github.com/opdev/disconnectedOCPdemo/blob/main/doc/operator-installation.md).
 
 ## Conclusion
 
