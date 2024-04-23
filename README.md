@@ -40,7 +40,8 @@ Follow these steps to set up your disconnected OpenShift Cluster:
 Each component plays a critical role in establishing a robust and secure OCP environment in disconnected setups. Proper configuration and integration of these components are essential for a successful deployment.
 
 
-## Ref:
+## References:
+
 Installing Operators in a Disconnected OpenShift Cluster:
 
 https://medium.com/@abhichandra1998/installing-operators-in-a-disconnected-openshift-cluster-129af21cd904
@@ -48,5 +49,9 @@ https://medium.com/@abhichandra1998/installing-operators-in-a-disconnected-opens
 Better securing the future: Navigating Red Hat OpenShift disconnected installations with the agent-based installer:
 
 https://www.redhat.com/en/blog/red-hat-openshift-disconnected-installations
+
+Red Hat-provided Operator catalogs
+
+https://docs.openshift.com/container-platform/4.15/operators/understanding/olm-rh-catalogs.html
 
 
