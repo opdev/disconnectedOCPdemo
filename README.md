@@ -1,6 +1,6 @@
-# Guide to Setting Up an Offline OpenShift Cluster
+# Disconnected OpenShift cluster installation guide
 
-This guide explains how to deploy an OpenShift Container Platform (OCP) in a disconnected environment. It utilizes a bastion host for secure communication and a private Quay repository to manage container images.
+This guide explains how to deploy an OpenShift Container Platform (OCP) in a disconnected environment. It utilizes a bastion server for secure communication and a private Quay repository hosted on a mirror server to manage container images.
 
 ## Challenges
 
@@ -11,14 +11,14 @@ The challenge is the platform can't fetch the necessary images from RedHat regis
 ### Components Overview
 
 - **Quay Repository**: A private repository that manages and stores your container images.
-- **Bastion Host**: A server that facilitates secure interaction between your local network and the disconnected OCP environment.
+- **Bastion Server**: A server that facilitates secure interaction between your local network and the disconnected OCP environment.
 - **Mirror Server**: Hosts the Quay repository and is part of the infrastructure that mirrors external resources needed for OpenShift installation.
 - **VPC Setup**: Both the mirror and bastion servers are located within the same Virtual Private Cloud (VPC), ensuring they can communicate securely.
 - **External Access**: The mirror server is accessible externally—this can be configured based on security requirements.
 
 ### Deployment Steps
 
-Follow these steps to set up your offline OpenShift Cluster:
+Follow these steps to set up your disconnected OpenShift Cluster:
 
 1. **Set Up the Bastion Server**:
    - This server acts as a gateway between your local network and the OpenShift cluster, ensuring secure connectivity.
@@ -27,13 +27,13 @@ Follow these steps to set up your offline OpenShift Cluster:
    - This server hosts the Quay repository and mirrors needed resources, making them available to the OpenShift environment.
 
 3. **Set Up the Quay Repository**:
-   - Configure the private Quay repository on the mirror server to manage Docker and OpenShift images.
+   - Configure the private Quay repository on the mirror server to manage OpenShift images.
 
 4. **Install OpenShift**:
-   - Deploy the OpenShift Container Platform using the resources available from your mirror server.
+   - From the bastion server, install the OpenShift Container Platform using the resources available from your mirror server.
 
 5. **Install Operators**:
-   - Install necessary OpenShift operators using the images managed in your Quay repository. Operators help manage various functions within your OpenShift environment.
+   - Install OpenShift operators using the images managed in your Quay repository.
 
 ## Conclusion
 
