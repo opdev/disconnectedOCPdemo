@@ -21,7 +21,7 @@ The challenge is the platform can't fetch the necessary images from RedHat regis
 Follow these steps to set up your disconnected OpenShift Cluster:
 
 1. **Set Up the Bastion Server**:
-   - The bastion server functions as a secure gateway linking your local network to the OpenShift cluster. Detailed instructions can be found [here](https://github.com/opdev/disconnectedOCPdemo/blob/main/doc/bastion-server-installation.md).
+   - The bastion server functions as a secure gateway linking your local network to the OpenShift cluster. Detailed instructions can be found [here](https://github.com/opdev/disconnectedOCPdemo/tree/main/bastion).
 
 2. **Set Up the Mirror Server:**
 - The mirror server hosts the Quay repository and mirrors essential resources, providing them to the OpenShift environment. Detailed instructions can be found [here](https://github.com/opdev/disconnectedOCPdemo/blob/main/doc/mirror-server-installation.md).
