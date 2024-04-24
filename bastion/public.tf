@@ -27,7 +27,7 @@ resource "aws_security_group" "bastion_server" {
   }
 
   tags = {
-    Name = "${var.PROJECT_NAME}-bastion-sg"
+    Name = "${var.PROJECT_NAME}-server-sg"
     Project = "${var.PROJECT_NAME}"
   }
 }
@@ -35,7 +35,7 @@ resource "aws_security_group" "bastion_server" {
 data "aws_security_group" "selected" {
   filter {
     name = "group-name"
-    values = ["${var.PROJECT_NAME}-bastion-sg"]
+    values = ["${var.PROJECT_NAME}-server-sg"]
   }
   depends_on = [
     aws_security_group.bastion_server
@@ -55,6 +55,24 @@ resource "aws_instance" "bastion_server" {
 
   tags = {
     Name = "${var.PROJECT_NAME}_bastion"
+    Project = "${var.PROJECT_NAME}"
+  }
+}
+
+resource "aws_instance" "mirror_server" {
+  ami                   = "ami-0d77c9d87c7e619f9"  # Use the same AMI or select according to need
+  instance_type         = "t3.large"
+  availability_zone     = "${var.aws_region}a"
+  key_name              = "${var.PROJECT_NAME}_kp"
+  subnet_id             = aws_subnet.us-east-2a-public.id  # Assume same subnet as bastion
+  vpc_security_group_ids = [data.aws_security_group.selected.id]
+
+  root_block_device {
+    volume_size = 1000  # Changing volume size to 1000 GB
+  }
+
+  tags = {
+    Name    = "${var.PROJECT_NAME}_mirror"
     Project = "${var.PROJECT_NAME}"
   }
 }
