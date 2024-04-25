@@ -33,7 +33,7 @@ Follow these steps to set up your disconnected OpenShift Cluster:
    - From the bastion server, install the OpenShift Container Platform using the resources available from your mirror server.Detailed instructions can be found [here](https://github.com/opdev/disconnectedOCPdemo/blob/main/doc/disconnectedOCP-installation.md).
 
 5. **Install Operators**:
-   - Install OpenShift operators using the images managed in your Quay repository.Detailed instructions can be found [here](https://github.com/opdev/disconnectedOCPdemo/blob/main/doc/operator-installation.md).
+   - Install OpenShift operators using the images managed in your Quay repository.Detailed instructions can be found [here](https://github.com/rocrisp/dell).
 
 ## Conclusion
 
