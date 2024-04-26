@@ -4,7 +4,6 @@ OpenShift clusters have a restricted environment in which the Nodes do not have 
 
 1. Login to your bastion server
 2. Run these commands
-   
    ```
    $ curl -L https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.15.8/openshift-install-linux.tar.gz -o ./openshift-install-linux.tar.gz
    $ tar -xvf openshift-install-linux.tar.gz
@@ -15,11 +14,10 @@ OpenShift clusters have a restricted environment in which the Nodes do not have 
    $ cd disconnected-ocp
    $ copy config/install-config.yaml disconnected-ocp/.
    ```
-3. Modify install-config.yaml 
-   -
-   -
-   -
-   -
+3. Modify install-config.yaml
+- dfdfd
+- dfdf
+- dfdfd
 
 4. Install OCP
    ```
