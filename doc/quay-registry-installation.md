@@ -12,6 +12,11 @@
 
    [Here](https://github.com/opdev/disconnectedOCPdemo/blob/main/config/imageSetConfig.yaml) is an example of the imagesetconfig.yaml file
 
+   Or generate imageSetConfig.yaml with:
+   ```
+   $ oc mirror init --registry example.com/mirror/oc-mirror-metadata > imageset-config.yaml
+   ```
+
    And, this is the command I used for the mirroring process:
 
    ```
@@ -19,3 +24,7 @@
    ```
 #### Note: 
 Stop before reaching the "Agent Based Installation" section
+
+#### References:
+
+[Mirroring](https://docs.openshift.com/container-platform/4.15/installing/disconnected_install/installing-mirroring-disconnected.html) an image set to a mirror registry
