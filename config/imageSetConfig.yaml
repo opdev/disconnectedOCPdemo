@@ -2,15 +2,12 @@ kind: ImageSetConfiguration
 apiVersion: mirror.openshift.io/v1alpha2
 storageConfig:
   registry:
-    imageURL: <internal-ip-address>:8443/mirror/oc-mirror-metadata
+    imageURL: ip-10-0-0-158.us-east-2.compute.internal:8443/mirror/oc-mirror-metadata
     skipTLS: true
 mirror:
   platform:
     channels:
     - name: stable-4.15
-      minVersion: 4.15.5
-      maxVersion: 4.15.9
-      shortestPath: true
       type: ocp
     graph: true
   operators:
