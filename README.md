@@ -19,7 +19,7 @@ Follow these steps to set up your disconnected OpenShift Cluster:
 1. **Set Up the bastion and the mirror Server**:
    - The bastion server functions as a secure gateway linking your local network to the OpenShift cluster. 
    - The mirror server hosts the Quay repository and mirrors essential resources, providing them to the OpenShift environment.
-   - 
+  
    Detailed instructions can be found [here](https://github.com/opdev/disconnectedOCPdemo/tree/main/bastion).
 
 
