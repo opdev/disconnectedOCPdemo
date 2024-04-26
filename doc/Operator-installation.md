@@ -16,4 +16,4 @@ For detailed steps on the procedures listed below, consult the [official OpenShi
 
 ### 3. Installing Operators
 
-[See this example](https://github.com/rocrisp/dell)
+[See example](https://github.com/rocrisp/dell)
