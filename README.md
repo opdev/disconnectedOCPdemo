@@ -1,6 +1,6 @@
 # Disconnected OpenShift cluster installation guide
 
-This guide explains how to deploy an OpenShift Container Platform (OCP) in a disconnected environment. It utilizes a bastion server for secure communication and a private Quay repository hosted on a mirror server to manage container images.
+This guide outlines the process for deploying an OpenShift Container Platform (OCP) in a disconnected environment. It utilizes a bastion server for secure communication and a private Quay repository hosted on a mirror server to manage container images.
 
 ## Overview
 
