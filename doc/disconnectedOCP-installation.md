@@ -14,10 +14,9 @@ OpenShift clusters have a restricted environment in which the Nodes do not have 
    $ cd disconnected-ocp
    $ copy config/install-config.yaml disconnected-ocp/.
    ```
-3. Modify install-config.yaml
-- dfdfd
-- dfdf
-- dfdfd
+3. Configure install-config.yaml
+
+   Detailed instructions can be found [here](https://docs.openshift.com/container-platform/4.15/installing/installing_aws/installing-restricted-networks-aws-installer-provisioned.html#installation-aws-config-yaml_installing-restricted-networks-aws-installer-provisioned).
 
 4. Install OCP
    ```
