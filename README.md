@@ -36,7 +36,9 @@ Follow these steps to set up your disconnected OpenShift Cluster:
 2. **Install Operators**:
    - Install OpenShift operators using the images managed in your Quay repository.
    
-   Detailed instructions can be found [here](https://github.com/rocrisp/dell).
+   Detailed instructions can be found [here](https://github.com/opdev/disconnectedOCPdemo/blob/main/doc/Operator-installation.md)
+   
+   [Link](https://github.com/rocrisp/dell) to Dell's example.
 
 ## Conclusion
 
